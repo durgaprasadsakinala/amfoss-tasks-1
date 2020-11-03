@@ -1,1 +1,1 @@
-
+I was skeptical of losing data while installing ubuntu .I have seen many tutorials ,taken precautions and backed up the stuff .It was not that easy .It took time and finally installed ubuntu.We have to be careful while alloting space for ubuntu in Disk management.
