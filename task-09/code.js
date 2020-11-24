@@ -1,12 +1,11 @@
- 
-//we need to open up telegram web and go to the chat you want to spam 
+ //we need to open up telegram web and go to the chat you want to spam 
 //open console using ( Ctrl + Shift + J )
 //execute the code 
 var message = "Hi Dude"; 
-var interval = 1  ; 
-var count = 50 ; 
+var interval = 1  ;
+var count = 50 ;
 var notifyInterval = 5 ; 
-var i = 0 ;
+var i = 0 
 var timer = setInterval(function(){
 	document.getElementsByClassName('composer_rich_textarea')[0].innerHTML = message;
 	$('.im_submit').trigger('mousedown');	
