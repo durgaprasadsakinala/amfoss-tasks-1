@@ -1,59 +1,46 @@
-#include <cmath>  // infinity stones;
+#include <cmath>  
 #include <cstdio>
 #include <vector>
 #include <iostream>
 #include <algorithm>
+
 using namespace std;
 
 
-int main() {int n;int m;int k;vector<int >s;vector<int >a;int t;cin>>t;int x;
+
+int main() {int n;int m;int k;vector<int >v;vector<int >a;int t;cin>>t;int y;
 
 
-
-            for (int j=0;j<t;j++){
+            for (int u=0;u<t;u++){
                 cin>>n>>m>>k;
-            for(int i=0;i<m;i++){cin>>x;s.push_back(x);            }
-             for(int i=0;i<m;i++){cin>>x;a.push_back(x);}
+                
+                 // used vectors 
+                for(int i=0;i<m;i++){cin>>y;v.push_back(y);            }
+            
+                for(int i=0;i<m;i++){cin>>y;a.push_back(y);}
 
+                 //ascending order
+           
+                sort(a.begin(),a.end());
+                 // desending order
+                reverse(a.begin(),a.end());
+           
+                y=0;
+          
+                
+                for (int i=0;i<k;i++){
 
-            sort(a.begin(),a.end());
-            reverse(a.begin(),a.end());
-            x=0;
-            for (int i=0;i<k;i++){
-
-                x=x+a[i];
+               y=y+a[i];
 
 
             }
 
-            if(x>=n){
+           if(y>=n){
 
                 cout<<"YES"<<endl;
             }else{cout<< "NO"<<endl; }
 
+ }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            }
-
-
-
-
-
-    return 0;
+ return 0;
 }
